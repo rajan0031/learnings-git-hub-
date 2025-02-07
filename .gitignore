@@ -1,0 +1,89 @@
+# Node Modules (Required)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment Variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+.log
+
+# Dependencies
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build files
+dist/
+build/
+.out/
+.next/
+.cache/
+
+# Temporary Files
+tmp/
+temp/
+*.swp
+*.swo
+*.swn
+.DS_Store
+Thumbs.db
+
+# Database files
+*.sqlite
+*.sqlite-journal
+db/
+data/
+dump.sql
+
+# VSCode settings (Optional)
+.vscode/
+.history/
+
+# Debug & Testing
+coverage/
+.nyc_output/
+*.lcov
+*.pid
+*.seed
+*.log
+
+# Knex Migrations & Seeds (if applicable)
+migrations/
+seeds/
+knexfile.js
+
+# Docker files (if using Docker)
+docker-compose.override.yml
+docker-compose.override.yml
+
+# Swagger auto-generated docs
+swagger.yaml
+swagger.json
+
+# TypeScript (if applicable)
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# Prisma (if using Prisma ORM)
+prisma/migrations/
+prisma/.dev.db
+prisma/.dev.db-journal
+
+# Ignore files related to your specific backend framework
+.cache/
+.terraform/
+firebase-debug.log
+firebase-error.log
